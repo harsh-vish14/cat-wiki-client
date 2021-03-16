@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Cat Wikipedia</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,12 +8,16 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://cat-wikipedia.web.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
+    <a href=https://github.com/harsh-vish14/cat-wiki-client">
+      Solution Client
+    </a>
+    <span> | </span>
+    <a href="https://github.com/harsh-vish14/cat-wiki-server">
+      Solution Server
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/f4NJ53rcfgrP6sBMD2jt">
@@ -37,7 +41,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://firebasestorage.googleapis.com/v0/b/images-to-link-converter.appspot.com/o/images%2F4hvhii142jscreencapture-cat-wikipedia-web-app-2021-03-16-17_01_16.png?alt=media&token=6e2c70be-96d7-48f3-95c2-1035e6ca46ac)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -51,8 +55,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
@@ -68,7 +70,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/harsh-vish14/cat-wiki-client
 
 # Install dependencies
 $ npm install
@@ -87,6 +89,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@harsh-vish14](https://github.com/harsh-vish14)
+- Twitter [@Harshvish_14](https://twitter.com/Harshvish_14)
