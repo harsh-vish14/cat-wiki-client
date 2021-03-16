@@ -1,0 +1,112 @@
+.hero {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.hero .hero-image {
+  position: relative;
+  height: 90vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.hero .hero-image .hero-content {
+  position: absolute;
+  bottom: 20%;
+  margin-left: 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+}
+
+.hero .hero-image .hero-content img {
+  height: 4.375rem;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.hero .hero-image .search-container {
+  width: 100%;
+}
+
+.hero .hero-image .search-container .search-bar {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-image .search-container .search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.hero .hero-image .search-container .search-bar .search-icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.hero .hero-image .search-container .options {
+  width: 85%;
+  position: absolute;
+  overflow: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  height: 120px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.808);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.808);
+}
+
+.hero .hero-image .search-container .options::-webkit-scrollbar {
+  width: 5px;
+  /* width of the entire scrollbar */
+}
+
+.hero .hero-image .search-container .options::-webkit-scrollbar-track {
+  background: transparent;
+  /* color of the tracking area */
+  margin: 10px;
+}
+
+.hero .hero-image .search-container .options::-webkit-scrollbar-thumb {
+  background-color: #383838;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
+
+.hero .hero-image .search-container .options .option {
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 20px;
+  width: 90%;
+  display: block;
+}
+
+.hero .hero-image .search-container .options .option:hover {
+  background-color: #dddddd;
+}
+
+.hero .hero-image .subtitle {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=hero.css.map */

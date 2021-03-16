@@ -1,0 +1,35 @@
+.footer {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .logo {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.footer .copyright {
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=footer.css.map */

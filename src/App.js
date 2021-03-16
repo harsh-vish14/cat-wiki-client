@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext, useEffect } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import AllCats from "./components/allCats/allCats";
+import Body from "./components/body/body";
+import CatInfo from "./components/CatInfo/CatInfo";
+import Footer from "./components/footer/footer";
+import Hero from "./components/hero/hero";
+import Navbar from "./components/navbar/navbar";
+import { DataContext } from "./context/context";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+        <Switch>
+          <Route exact path='/'>
+            <Hero />
+            <Body />
+          </Route>
+          <Route path='/All_cats'>
+            <AllCats />
+          </Route>
+          <Route path='/cat-info/:name' component={CatInfo}></Route>
+        </Switch>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

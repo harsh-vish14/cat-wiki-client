@@ -1,0 +1,95 @@
+
+.hero{
+    margin-left: 50px;
+    margin-right: 50px;
+    .hero-image{
+        position: relative;
+        height: 90vh;
+        border-top-left-radius:50px;
+        border-top-right-radius:50px;
+        .hero-content{
+            position: absolute;
+            bottom: 20%;
+            margin-left: 30px;
+            width: max-content;
+            padding: 10px;
+            img{
+                height: 4.375rem;
+                filter: invert(1);
+            }
+            
+        }
+        .search-container{
+            width: 100%;
+            .search-bar{
+                padding:5px;
+                border-radius: 20px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                input{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                    font-size: 15px;
+                    padding: 10px;
+                }
+                .search-icon{
+                    font-size: 25px;
+                    margin-right: 5px;
+                }
+            }
+            .options{
+                width: 85%;
+                position: absolute;
+                overflow: auto;
+                background-color: white;
+                border-radius: 20px;
+                padding: 20px;
+                margin-top: 20px;
+                height: 120px;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.808);
+                &::-webkit-scrollbar {
+                    width: 5px;
+                    
+                    /* width of the entire scrollbar */
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                    /* color of the tracking area */
+                    margin: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: rgb(56, 56, 56);
+                    
+                    /* color of the scroll thumb */
+                    border-radius: 20px;
+
+                    /* roundness of the scroll thumb */
+                    /* creates padding around scroll thumb */
+                }
+                .option{
+                    padding: 10px;
+                    padding-left: 20px;
+                    border-radius: 20px;
+                    width: 90%;
+                    display: block;
+                    &:hover{
+                        background-color: rgb(221, 221, 221);
+                    }
+                }
+            }
+        }
+        .subtitle {
+            color: white;
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+
+}
