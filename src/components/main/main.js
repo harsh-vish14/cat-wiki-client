@@ -47,7 +47,7 @@ const Main = () => {
                 <div className='second-title'>
                     66+ Breeds For you <br /> to discover
                     <Link style={{textDecoration:'none',color:'#1b1717'}} to='/All_cats' >
-                        <div className='see-more'>
+                        <div className='see-more' style={{opacity:'0.65'}} >
                         SEE MORE <BsArrowRight style={{marginLeft:'5px'}} />
                     </div>
                     </Link>

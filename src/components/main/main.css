@@ -39,7 +39,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  opacity: 70%;
+  opacity: 0.70;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -71,7 +71,7 @@
 
 .main .box::after {
   content: '';
-  opacity: 40%;
+  opacity: 0.40;
   -webkit-filter: blur(10px);
           filter: blur(10px);
   z-index: -1;
@@ -81,7 +81,7 @@
   border-radius: 5px;
   height: 200px;
   width: 200px;
-  background-color: #f5658f;
+  background-color: #3e95c1;
 }
 
 .main .main-text {

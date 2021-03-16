@@ -51,7 +51,6 @@
 
 .cats #cat-image::after {
   content: '';
-  opacity: 40%;
   -webkit-filter: blur(10px);
           filter: blur(10px);
   z-index: -1;
@@ -61,7 +60,7 @@
   border-radius: 5px;
   height: 140px;
   width: 140px;
-  background-color: #c4465a;
+  background-color: #113d5e;
 }
 
 .content {

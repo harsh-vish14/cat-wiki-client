@@ -50,7 +50,7 @@ const All_Cats = () => {
             </div>
                         {
                             filtering ? (
-                                filtering.map((item) => {
+                                filtering.map((item,i) => {
                                     return (
                                         <div className='box' key={item.name}>
                                             <div id='cat-image'>
@@ -58,9 +58,7 @@ const All_Cats = () => {
                                             </div>
                                             <div className='content'>
                                                 <div className='title'>
-                                                    {
-                                                        item.name
-                                                    }
+                                                    {i+1}. {item.name}
                                                 </div>
                                                 <div className='descriptions'>
                                                     {
