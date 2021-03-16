@@ -18,7 +18,7 @@ const Hero = () => {
     const fetchingData = async () => {
         console.log('loading')
         setIsLoading(true)
-        await fetch('http://localhost:8000/breeds')
+        await fetch('https://mighty-garden-21753.herokuapp.com/breeds')
             .then((res) => res.json())
             .then(async (json) => {
                 setData(json);

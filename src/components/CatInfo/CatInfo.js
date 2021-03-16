@@ -12,11 +12,11 @@ const CatInfo = ({ match }) => {
     const [isLoading, setIsLoading] = useState(false);
     const gettingCatInfo = async () => {
         setIsLoading(true)
-        await fetch(`http://localhost:8000/catInfo/${name}`)
+        await fetch(`https://mighty-garden-21753.herokuapp.com/catInfo/${name}`)
             .then((res) => res.json())
             .then((data) => {
                 setCatInfo(data[0]);
-                fetch(`http://localhost:8000/images/${data[0].id}`)
+                fetch(`https://mighty-garden-21753.herokuapp.com/images/${data[0].id}`)
                     .then((res) => res.json())
                     .then((data) => {
                         var removeOne = []

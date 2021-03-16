@@ -10,7 +10,7 @@ const All_Cats = () => {
     const fetchingData = () => {
         console.log('loading')
         setIsLoading(true)
-        fetch('http://localhost:8000/breeds')
+        fetch('https://mighty-garden-21753.herokuapp.com/breeds')
             .then((res) => res.json())
             .then(async (json) => {
                 setData(json);
